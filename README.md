@@ -5,4 +5,3 @@
 ## 動作環境
 blender 3.2
 
-test
