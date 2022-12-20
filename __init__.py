@@ -14,13 +14,13 @@ bl_info = {
 
 
 import bpy 
-from MaterialBank.models.Material import *
-from MaterialBank.models.MaterialMod import *
-from MaterialBank.UI.MaterialBank_PT_Read import *
-from MaterialBank.UI.MaterialBank_PT_Store import *
-from MaterialBank.UI.MyInputs import *
-from MaterialBank.UI.Read_OT_Button import *
-from MaterialBank.UI.Store_OT_Button import *
+from models.Material import *
+from models.MaterialMod import *
+from UI.MaterialBank_PT_Read import *
+from UI.MaterialBank_PT_Store import *
+from UI.MyInputs import *
+from UI.Read_OT_Button import *
+from UI.Store_OT_Button import *
 # ===== UIクラスの登録 ===== #
 
 def register():

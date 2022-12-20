@@ -1,5 +1,5 @@
 import bpy
-from MaterialBank.models.MaterialMod import *
+from models.MaterialMod import *
 #ボタン
 class Store_OT_Button(bpy.types.Operator):
     bl_idname = "button.store"

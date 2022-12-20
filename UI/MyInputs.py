@@ -1,5 +1,5 @@
 import bpy
-from MaterialBank.models.MaterialMod import *
+from models.MaterialMod import *
 #カスタムインプット
 class MyInputs(bpy.types.PropertyGroup):
     #テキストボックス

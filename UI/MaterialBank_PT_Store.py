@@ -1,5 +1,5 @@
 import bpy
-from MaterialBank.UI.MyInputs import * 
+from UI.MyInputs import * 
 #パネル
 class MaterialBank_PT_Store(bpy.types.Panel):
     bl_idname = "VIEW3D_PT_materialbank_sotre"

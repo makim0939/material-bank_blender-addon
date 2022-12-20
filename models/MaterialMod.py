@@ -1,6 +1,6 @@
 import bpy
-from MaterialBank.models.Material import *
-BANK_PAHT = __file__.replace("models\MaterialMod.py", "") + "materialBank.txt"
+from models.Material import *
+BANK_PAHT = __file__.replace("models\MaterialMod.py", "") + "txt"
 
 class MaterialMod:
     # ===== マテリアル作成メソッド ===== #
